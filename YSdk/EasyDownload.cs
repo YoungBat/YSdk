@@ -4,7 +4,7 @@ namespace YSdk;
 
 public class EasyDownload : IDownload
 {
-    private static readonly HttpClient HttpClient = new HttpClient();
+    private static readonly HttpClient HttpClient = new();
 
     public async Task<(bool, string)> GetAsync(string url, string savePath)
         => await DownloadCoreAsync(url, savePath);
@@ -30,7 +30,6 @@ public class EasyDownload : IDownload
         }
     }
 
-    // 单线程下载扩展
     public async Task<(bool, string)> GetAsync(string url, string savePath, IProgress<long> progress)
         => await DownloadCoreAsync(url, savePath, progress);
 
@@ -109,7 +108,8 @@ public class EasyDownload : IDownload
 public interface IDownload
 {
     Task<(bool, string)> GetAsync(string url, string savePath);
-
-    // 新增文件信息接口
     Task<(bool success, long fileSize, bool acceptRanges)> GetInfoAsync(string url);
+    Task<(bool, string)> GetAsync(string url, string savePath, IProgress<long> progress);
+    Task<(bool, string)> GetAsync(string url, string savePath, int maxBytesPerSecond);
+    Task<(bool, string)> GetAsync(string url, string savePath, IProgress<double> percentageProgress);
 }
