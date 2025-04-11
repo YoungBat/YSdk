@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YSdk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5b4d936730f9aa203439770b6c405ef701b52fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65e6c2fa3fc28c75f9dab609b0e1d0d3fdc406be")]
 [assembly: System.Reflection.AssemblyProductAttribute("YSdk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YSdk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
