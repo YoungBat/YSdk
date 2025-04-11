@@ -1,0 +1,12 @@
+D:\system-files\desktop\Project\CS\YSdk\YSdk\bin\Debug\net8.0\YSdk.deps.json
+D:\system-files\desktop\Project\CS\YSdk\YSdk\bin\Debug\net8.0\YSdk.dll
+D:\system-files\desktop\Project\CS\YSdk\YSdk\bin\Debug\net8.0\YSdk.pdb
+D:\system-files\desktop\Project\CS\YSdk\YSdk\obj\Debug\net8.0\YSdk.GeneratedMSBuildEditorConfig.editorconfig
+D:\system-files\desktop\Project\CS\YSdk\YSdk\obj\Debug\net8.0\YSdk.AssemblyInfoInputs.cache
+D:\system-files\desktop\Project\CS\YSdk\YSdk\obj\Debug\net8.0\YSdk.AssemblyInfo.cs
+D:\system-files\desktop\Project\CS\YSdk\YSdk\obj\Debug\net8.0\YSdk.csproj.CoreCompileInputs.cache
+D:\system-files\desktop\Project\CS\YSdk\YSdk\obj\Debug\net8.0\YSdk.sourcelink.json
+D:\system-files\desktop\Project\CS\YSdk\YSdk\obj\Debug\net8.0\YSdk.dll
+D:\system-files\desktop\Project\CS\YSdk\YSdk\obj\Debug\net8.0\refint\YSdk.dll
+D:\system-files\desktop\Project\CS\YSdk\YSdk\obj\Debug\net8.0\YSdk.pdb
+D:\system-files\desktop\Project\CS\YSdk\YSdk\obj\Debug\net8.0\ref\YSdk.dll
